@@ -1,0 +1,29 @@
+#gallery-container {
+  width: 500px;
+  height: auto;
+}
+
+#gallery-container.expanded {
+  width: 100%;
+}
+
+.controls {
+  margin-top: 10px;
+}
+
+.indicators {
+  margin-top: 10px;
+}
+
+.indicator-dot {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  margin: 0 5px;
+  border-radius: 50%;
+  background-color: #ccc;
+}
+
+.indicator-dot.active {
+  background-color: #f50404;
+}

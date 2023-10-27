@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Car slider</title>
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+
+    <link rel="stylesheet" href="slider.css" />
+  </head>
+  <body>
+    <div id="gallery-container">
+      <img id="gallery" src="./gallery-image/image1.jpg" alt="Gallery Image" />
+    </div>
+
+    <div class="controls">
+      <button id="prev-button" disabled>&lt;</button>
+      <button id="next-button">&gt;</button>
+    </div>
+
+    <div class="indicators">
+      <div class="indicator"></div>
+    </div>
+
+    <button id="first-button">First</button>
+    <button id="last-button">Last</button>
+    <button id="slideshow-button" class="play-icon">Play</button>
+    <button id="expand-button" class="expand-icon">Expand</button>
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+
+    <script src="slider.js"></script>
+  </body>
+</html>
